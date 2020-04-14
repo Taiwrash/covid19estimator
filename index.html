@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This app is mainly to estimate covid19 cases">
+    <title>covid19 estimator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="container">
+     <div class="left-box">
+         <p>This app is mainly to estimate covid19 cases around the world in relation to the hospital present</p>
+     </div>
+     <div class="input-box">
+         <form action="">
+             <label for="population">Population</label>
+             <input type="text" id="data-population" placeholder="Population"><br>
+             <label for="data-time-to-elapse">Elapse Time</label>
+             <input type="text" id="data-time-to-elapse" placeholder="Time to Elapse"><br>
+             <label for="reported-cases">Reported Case</label>
+             <input type="text" id="data-reported-cases" placeholder="Reported Cases"><br>
+             <label for="hospital">Hospital Beds</label>
+             <input type="text" id="data-total-hospital-beds" placeholder="Hospital Beds"><br>
+             <label for="data-period">Data Period</label>
+             <select id="data-period-type" >
+                 <option value="Days">Days</option>
+                 <option value="Weeks">Weeks</option>
+                 <option value="Months">Months</option>
+             </select><br>
+             <button id="data-go-estimate" type="submit ">Estimate</button>
+             <script src="app.js"></script>
+
+         </form>
+     </div>
+ </div>   
+</body>
+</html>
