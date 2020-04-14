@@ -85,3 +85,9 @@ button:hover{
     text-shadow: 2px 2px 2px #000;
     transform: rotateX(30deg);
 }
+
+@media (max-width:700px){
+    .container{
+        width: 750px;
+    }
+}
